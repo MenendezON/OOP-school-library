@@ -12,7 +12,6 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -44,10 +43,31 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To use this project : 
+### Prerequisites
+
+In order to run this project you need:
+
+- A computer
+- Ruby installed
+
+### Setup
+
+Clone this repository to your desired folder:
 - `git@github.com:MenendezON/OOP-school-library.git` to clone the project
-- Make sure that you have ruby installed on your computer
-- Run this cmd : ruby classes.rb
+
+### Install
+
+Run the following command:
+- `bundle install`
+
+### Usage
+
+- Create an instance of one of those classes
+
+### Run tests
+
+To run tests, run the following command:
+- `bundle exec rubocop`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
