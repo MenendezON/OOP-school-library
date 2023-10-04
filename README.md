@@ -37,7 +37,10 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Create the decode function]**
+- **[Create the interface nameable]**
+- **[Create the decorator]**
+- **[Create the capitalize decorator]**
+- **[Create the trimmer decorator]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
