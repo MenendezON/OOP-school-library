@@ -1,8 +1,7 @@
-#!/usr/bin/env ruby
-require_relative './student'
-require_relative './teacher'
-require_relative './book'
-require_relative './rental'
+require_relative 'student'
+require_relative 'teacher'
+require_relative 'book'
+require_relative 'rental'
 
 ACTIONS = {
   1 => :list_books,
@@ -16,7 +15,7 @@ ACTIONS = {
 
 class App
   def print_question
-    puts 'Welcome to School library App! 🏫📚'
+    puts 'Welcome to School library App!'
     puts "Please choose an option by entering a number:
       1- List all books.
       2- List all people.
@@ -50,7 +49,7 @@ class App
   end
 
   def create_person
-    print 'Do you want to create a student (1) or a teacher (2)? [input the number]'
+    print 'Do you want to create a student (1) or a teacher (2)? [input the number]: '
     num = gets.chomp.to_i
 
     print 'age:'
