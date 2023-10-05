@@ -41,7 +41,6 @@
 - **[Create the decorator]**
 - **[Create the capitalize decorator]**
 - **[Create the trimmer decorator]**
-- **[Create three more classes]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
