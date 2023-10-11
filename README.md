@@ -20,7 +20,7 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 OOP school libraryL <a name="about-project"></a>
+# 📖 OOP school library <a name="about-project"></a>
 
 **[OOP school library]** is a simple ruby project, starting by create three classes, Person, Student and Teacher are inherents to Person with an extra parameter for each children class. This project has been extended by three other classes: Book, Rental and Classroom.
 
@@ -37,6 +37,7 @@
 
 ### Key Features <a name="key-features"></a>
 
+- **[Followed SOLID principle to refactor the code]**
 - **[Create the interface nameable]**
 - **[Create the decorator]**
 - **[Create the capitalize decorator]**
@@ -76,11 +77,17 @@ To run tests, run the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 _Menendez NELSON_
+👤 *Menendez NELSON*
 
 - GitHub: [@menendezon](https://github.com/menendezon)
 - Twitter: [@menendezon](https://twitter.com/menendezon)
 - LinkedIn: [MenendezON](https://linkedin.com/in/menendezon)
+
+👤 *Lawmsangi Varte*
+
+- GitHub: [@githubhandle](https://github.com/Lawmsangi)
+- Twitter: [@twitterhandle](https://twitter.com/mamy_22_zayn)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/lawmsangi-varte-baa429244/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
