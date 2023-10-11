@@ -37,6 +37,7 @@
 
 ### Key Features <a name="key-features"></a>
 
+- **[Followed SOLID principle to refactor the code]**
 - **[Create the interface nameable]**
 - **[Create the decorator]**
 - **[Create the capitalize decorator]**
@@ -76,7 +77,7 @@ To run tests, run the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 _Menendez NELSON_
+👤 *Menendez NELSON*
 
 - GitHub: [@menendezon](https://github.com/menendezon)
 - Twitter: [@menendezon](https://twitter.com/menendezon)
