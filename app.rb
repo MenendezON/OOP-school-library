@@ -13,19 +13,16 @@ class App
   def create_person
     print 'Do you want to create a student (1) or a teacher (2)? [input the number]: '
     num = gets.chomp.to_i
-
     print 'age:'
     age = gets.chomp.to_i
-
     print 'Name:'
     name = gets.chomp
-
     case num
     when 1
       print 'Has parent permission? [y/n]:'
       parent_permission = gets.chomp
       parent_permission = parent_permission == 'y'
-      @person.push(Student.new(age, name, parent_permission: parent_permission))
+      @person.push(Student.new(age, 'classroom', name, parent_permission: parent_permission))
     when 2
       print 'Specialization:'
       specialization = gets.chomp
