@@ -8,6 +8,7 @@ class Solve
       (1..number).reduce(:*)
     end
   end
+
   def reverse(word)
     word.reverse
   end
