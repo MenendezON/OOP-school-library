@@ -17,4 +17,10 @@ describe Solve do
       expect { subject.factorial(-3) }.to raise_error(ArgumentError)
     end
   end
+  context 'reverse' do
+    it 'reverses a word' do
+      expect(subject.reverse('hello')).to eq('olleh')
+      expect(subject.reverse('world')).to eq('dlrow')
+    end
+  end
 end
